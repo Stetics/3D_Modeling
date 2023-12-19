@@ -28,7 +28,7 @@ def computeCode(x, y):
     return code
 
 
-def hitung():
+def hitng():
     x1 = float(entry_x1.get())
     y1 = float(entry_y1.get())
     x2 = float(entry_x2.get())
@@ -121,24 +121,24 @@ def hitung():
 
 
 my_window = Tk()
-my_window.title("Cohen Sutherland Algorithm by Zanuar")
+
 
 #   input
-Label(my_window, text="Masukan titik x1 : ", fg="black", font="none 12").grid(row=1, column=0, sticky=W)
+Label(my_window, text="write x1 : ", fg="black", font="none 12").grid(row=1, column=0, sticky=W)
 entry_x1 = Entry(my_window, width=20, bg="white")
 entry_x1.grid(row=1, column=0)
-Label(my_window, text="Masukan titik y1 : ", fg="black", font="none 12").grid(row=2, column=0, sticky=W)
+Label(my_window, text="write y1 : ", fg="black", font="none 12").grid(row=2, column=0, sticky=W)
 entry_y1 = Entry(my_window, width=20, bg="white")
 entry_y1.grid(row=2, column=0)
-Label(my_window, text="Masukan titik x2 : ", fg="black", font="none 12").grid(row=3, column=0, sticky=W)
+Label(my_window, text="write x2 : ", fg="black", font="none 12").grid(row=3, column=0, sticky=W)
 entry_x2 = Entry(my_window, width=20, bg="white")
 entry_x2.grid(row=3, column=0)
-Label(my_window, text="Masukan titik y2 : ", fg="black", font="none 12").grid(row=4, column=0, sticky=W)
+Label(my_window, text="write y2 : ", fg="black", font="none 12").grid(row=4, column=0, sticky=W)
 entry_y2 = Entry(my_window, width=20, bg="white")
 entry_y2.grid(row=4, column=0)
 
 #   button
-Button(my_window, text="SUBMIT", width=6, command=hitung).grid(row=5, column=0)
+Button(my_window, text="SUBMIT", width=6, command=hitng).grid(row=5, column=0)
 
 #   canvas
 my_canvas = Canvas(my_window, width=400, height=400)
