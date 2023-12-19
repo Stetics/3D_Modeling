@@ -1,4 +1,4 @@
-rom PIL import ImageDraw, Image
+from PIL import ImageDraw, Image
 import numpy as np
 from IPython.display import display
 
